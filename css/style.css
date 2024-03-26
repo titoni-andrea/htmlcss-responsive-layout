@@ -103,6 +103,7 @@ body {
 
 .title-card {
     margin-bottom: 20px;
+    font-size: 23px;
 }
 
 .icon-card-info {
@@ -120,7 +121,7 @@ body {
     background-color: var(--secondary-color);
 }
 
-.boxing {
+.boxing-planning {
     padding: 80px 30px;
 }
 
@@ -137,6 +138,7 @@ body {
 .title-section {
     color: white;
     padding-bottom: 35px;
+    font-size: 35px;
 }
 
 .col1-planning .testo {
@@ -166,3 +168,84 @@ body {
     border-radius: 50%;
 }
 
+/* --- TESTIMONIALS --- */
+
+.boxing-testimonials {
+    padding: 33px 30px 100px 30px;
+    text-align: center;
+}
+
+.boxing-testimonials .testo {
+    padding: 25px 0px;
+}
+
+.boxing-testimonials .title-section {
+    color: var(--secondary-color);
+    padding: 0;
+}
+
+.testimonial-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--secondary-color);
+    padding: 30px 18px;
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.cont-img {
+    width: 50%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont-img img {
+    width: 160%;
+}
+
+.testimonial-card .testo {
+    color: white;
+}
+
+
+/* --- BENEFIT --- */
+
+.cont-benefit {
+    background-color: var(--secondary-color);
+}
+
+.boxing-benefit {
+    padding: 33px 30px 60px 30px;
+    text-align: center;
+}
+
+.card-benefit {
+    background-color: white;
+    color: var(--secondary-color);
+    text-align: left;
+    padding: 27px 35px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.card-benefit .title-section {
+    color: var(--secondary-color);
+    padding-bottom: 25px;
+}
+
+.more {
+    border-radius: 26px;
+    background-color: var(--secondary-color);
+    padding: 10px 50px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+}
