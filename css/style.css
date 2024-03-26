@@ -546,4 +546,23 @@ footer {
     .col2-planning {
         width: 40%;
     }
+
+    /* --- TESTIMONIALS --- */
+
+    .boxing-testimonials {
+        width: 1150px;
+        margin: 0 auto;
+    }
+
+    .boxing-testimonials .title-section {
+        font-size: 45px;
+    }
+
+    .testimonial-card .cont-img {
+        width: 20%;
+    }
+
+    .col2-testimonials {
+        width: 80%;
+    }
 }
