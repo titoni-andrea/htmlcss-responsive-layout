@@ -258,6 +258,7 @@ body {
     padding: 33px 30px 60px 30px;
 }
 
+/* --- PRIMA SEZIONE ABOUT US  --- */
 .boxing-about-us .title-section {
     color: var(--secondary-color);
 }
@@ -271,6 +272,7 @@ body {
     margin-bottom: 15px;
 }
 
+/* --- SECONDA SEZIONE ABOUT US  --- */
 .col2-about-us {
     position: relative;
     margin-top: 35px;
@@ -296,4 +298,69 @@ body {
     text-decoration: none;
     display: inline-block;
     margin-top: 20px;
+}
+
+
+/* --- INIZIA  --- */
+
+.cont-inizia {
+    background-color: var(--secondary-color);
+}
+
+.boxing-inizia {
+    text-align: center;
+    padding: 33px 30px 60px 30px;
+}
+
+.boxing-inizia .testo {
+    color: white;
+}
+
+.boxing-inizia .testo a {
+    color: white;
+}
+
+.boxing-inizia .title-card {
+    color: white;
+    padding-top: 15px;
+    font-size: 28px;
+    line-height: 38px;
+}
+
+.boxing-inizia .title-section {
+    color: #FDC15F;
+    font-size: 50px;
+}
+
+.get-started {
+    text-decoration: none;
+    color: var(--secondary-color);
+    background-color: white;
+    padding: 12px 40px;
+    display: inline-block;
+    border-radius: 26px;
+    margin: 20px 0px;
+}
+
+
+/* ---------- FOOTER ---------- */
+footer {
+    background-color: #333333;
+}
+
+.boxing-footer {
+    text-align: center;
+    padding: 33px 30px 60px 30px;
+}
+
+.boxing-footer .testo {
+    color: white;
+}
+
+.boxing-footer .testo a{
+    color: var(--secondary-color);
+}
+
+.info-legali {
+    margin-top: 40px;
 }
