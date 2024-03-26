@@ -364,3 +364,23 @@ footer {
 .info-legali {
     margin-top: 40px;
 }
+
+
+/* ---------- TABLET ---------- */
+
+@media screen and (min-width: 750px){
+    .cont-card-info {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .card-info {
+        width: calc(33% - 1rem);
+    }
+
+    .card-double {
+        width: calc(66.66% - 0.77rem);
+    }
+    
+}
