@@ -79,6 +79,8 @@ body {
 /* --- CARD DOPPIA --- */
 .card-double {
     padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 .app-store {
@@ -384,6 +386,10 @@ footer {
 
     .card-double {
         width: calc(66.66% - 0.77rem);
+    }
+
+    .card-double img {
+        width: 50%;
     }
 
     /* --- PLANNING  --- */
