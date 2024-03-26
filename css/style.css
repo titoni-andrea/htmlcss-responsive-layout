@@ -368,7 +368,10 @@ footer {
 
 /* ---------- TABLET ---------- */
 
+
 @media screen and (min-width: 750px){
+    
+/* --- PRIMA SEZIONE  --- */
     .cont-card-info {
         flex-direction: row;
         flex-wrap: wrap;
@@ -382,5 +385,13 @@ footer {
     .card-double {
         width: calc(66.66% - 0.77rem);
     }
+
+    /* --- PLANNING  --- */
+
+    .boxing-planning .title-section {
+        font-size: 60px;
+        margin-bottom: 25px;
+    }
+    
     
 }
