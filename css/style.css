@@ -371,7 +371,7 @@ footer {
 
 @media screen and (min-width: 750px){
     
-/* --- PRIMA SEZIONE  --- */
+    /* --- PRIMA SEZIONE  --- */
     .cont-card-info {
         flex-direction: row;
         flex-wrap: wrap;
@@ -393,5 +393,21 @@ footer {
         margin-bottom: 25px;
     }
     
-    
+    /* --- TESTIMONIALS  --- */
+
+    .testimonial-card {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .boxing-testimonials .cont-img {
+        width: 30%;
+    }
+
+    .col2-testimonials {
+        width: 70%;
+        text-align: left;
+        padding-left: 20px;
+    }
+
 }
