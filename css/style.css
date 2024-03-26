@@ -18,6 +18,8 @@ body {
 
 /* -------- HEADER -------- */
 
+
+/* --- NAVBAR --- */
 .navbar {
     background-color: var(--primary-color);
     display: flex;
@@ -31,6 +33,7 @@ body {
     font-size: 26px;
 }
 
+/* --- LINK NAVBAR DESKTOP--- */
 .link-navbar {
     display: flex;
     justify-content: flex-end;
@@ -43,7 +46,7 @@ body {
     text-decoration: none;
     color: white;
 }
-
+/* --- BOTTONE NAVBAR --- */
 .started {
     background-color: white;
     color: black;
@@ -53,17 +56,20 @@ body {
 }
 
 
+/* ---------- CONTENUTO ---------- */
 main {
     padding: 40px 25px;
 }
 
-
+/* --- PRIMA SEZIONE INFO --- */
 .cont-card-info {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 25px;
+    padding-bottom: 50px;
 }
 
+/* --- CARD NORMALI --- */
 .card-info {
     width: 100%;
     background-color: var(--secondary-color);
@@ -72,6 +78,7 @@ main {
     text-align: center;
 }
 
+/* --- CARD DOPPIA --- */
 .card-double {
     padding-bottom: 0px;
 }
@@ -91,6 +98,7 @@ main {
     bottom: -4px;
 }
 
+/* --- CONTENUTO CARD NORMALI --- */
 .cont-title-card {
     color: var(--primary-color);
 }
