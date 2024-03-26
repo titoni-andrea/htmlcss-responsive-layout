@@ -1,0 +1,26 @@
+/* -------- GENERALE -------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* -------- HEADER -------- */
+
+.navbar {
+    background-color: #0084FD;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 8px;
+    align-items: center;
+    color: white;
+}
+
+.hamb-menu {
+    font-size: 26px;
+}
