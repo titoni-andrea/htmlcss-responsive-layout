@@ -476,3 +476,40 @@ footer {
         margin: 0 auto;
     }
 }
+
+
+/* ---------- DESKTOP ---------- */
+
+
+@media screen and (min-width: 1200px){
+
+    /* --- NAVBAR --- */
+
+    .link-navbar {
+        display: flex;   
+    }
+
+    .col2-navbar {
+        display: none;
+    }
+
+    /* --- PRIMA SEZIONE --- */
+
+    .boxing {
+        width: 1150px;
+        margin: 0 auto;
+    }
+
+    .card-double {
+        flex-direction: row;
+    }
+
+    .cont-double {
+        width: 50%;
+    }
+
+    .card-double img {
+        width: 36%;
+    }
+
+}
