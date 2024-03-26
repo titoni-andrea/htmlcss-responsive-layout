@@ -565,4 +565,27 @@ footer {
     .col2-testimonials {
         width: 80%;
     }
+
+    /* --- BENEFIT --- */
+
+    .boxing-benefit {
+        width: 1150px;
+        margin: 0 auto;
+    }
+
+    .cont-card-benefit {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .card-benefit {
+        width: 32%;
+    }
+
+    /* --- ABOUT US --- */
+
+    .boxing-about-us {
+        width: 1150px;
+        margin: 0 auto;
+    }
 }
