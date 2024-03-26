@@ -426,4 +426,47 @@ footer {
         font-size: 60px;
     }
 
+    /* --- ABOUT US  --- */
+
+    .flex-about-us {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .col1-about-us {
+        width: 50%; 
+    }
+
+    .col1-about-us .testo {
+        line-height: 35px;
+    }
+
+    .col1-about-us:nth-child(1) .testo {
+        margin-bottom: 25px;
+    }
+
+    .col2-about-us {
+        width: 35%;
+    }
+    
+    /* --- INIZIA  --- */
+
+    .boxing-inizia {
+        width: 620px;
+        margin: 0 auto;
+    }
+
+    .boxing-inizia .title-card {
+        font-size: 37px;
+    }
+
+    .boxing-inizia .title-section {
+        font-size: 60px;
+    }
+
+    /* --- FOOTER  --- */
+    .boxing-footer {
+        width: 500px;
+        margin: 0 auto;
+    }
 }
