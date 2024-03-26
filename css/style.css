@@ -226,6 +226,7 @@ body {
     text-align: center;
 }
 
+/* --- CARD BENEFIT --- */
 .card-benefit {
     background-color: white;
     color: var(--secondary-color);
@@ -247,5 +248,52 @@ body {
     display: inline-block;
     text-decoration: none;
     color: white;
+    margin-top: 20px;
+}
+
+
+/* --- ABOUT US  --- */
+
+.boxing-about-us {
+    padding: 33px 30px 60px 30px;
+}
+
+.boxing-about-us .title-section {
+    color: var(--secondary-color);
+}
+
+.boxing-about-us .title-card {
+    color: var(--secondary-color);
+}
+
+.boxing-about-us .testo {
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.col2-about-us {
+    position: relative;
+    margin-top: 35px;
+}
+
+.col2-about-us .title-card {
+    margin-top: 25px;
+}
+
+.virgoletta {
+    color: var(--secondary-color);
+    font-size: 150px;
+    position: absolute;
+    top: -10px;
+    left: 110px;
+}
+
+.linkedin {
+    background-color: var(--secondary-color);
+    border-radius: 26px;
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
     margin-top: 20px;
 }
