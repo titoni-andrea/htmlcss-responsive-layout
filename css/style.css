@@ -410,4 +410,20 @@ footer {
         padding-left: 20px;
     }
 
+    /* --- BENEFIT  --- */
+
+    .cont-card-benefit {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .card-benefit {
+        width: calc(50% - 0.5rem);
+    }
+
+    .card-benefit .title-section {
+        font-size: 60px;
+    }
+
 }
